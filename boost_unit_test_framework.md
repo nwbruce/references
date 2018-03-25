@@ -12,8 +12,8 @@ Macro | Description
 `BOOST_FAIL ( message)` | 
 
 ## Comparisons
-Macro | Description
---- | ---
+Macro |
+--- |
 `BOOST_CHECK_EQUAL ( left, right )` | 
 `BOOST_CHECK_BITWISE_EQUAL ( left, right )` | 
 `BOOST_CHECK_NE ( left, right )` | 
@@ -23,7 +23,7 @@ Macro | Description
 `BOOST_CHECK_GE ( left, right )` | 
 `BOOST_CHECK_CLOSE ( left, right, percent_tolerance )` | 
 `BOOST_CHECK_CLOSE_FRACTION ( left, right, tolerance )` | 
-`BOOST_CHECK_SMALL` | 
+`BOOST_CHECK_SMALL ( value, tolerance )` |
 `BOOST_CHECK_EQUAL_COLLECTIONS ( left_begin, left_end, right_begin, right_end )` | 
 
 ## Exceptions
