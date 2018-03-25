@@ -3,8 +3,8 @@
 `_CHECK` below can also be `_WARN`, or `_REQUIRE`
 
 ## Basics
-Macro | Description
---- | ---
+Macro |
+--- |
 `BOOST_CHECK ( predicate )` | 
 `BOOST_CHECK_MESSAGE ( predicate, message )` | 
 `BOOST_CHECK_PREDICATE ( predicate, args )` | 
@@ -27,8 +27,8 @@ Macro |
 `BOOST_CHECK_EQUAL_COLLECTIONS ( left_begin, left_end, right_begin, right_end )` | 
 
 ## Exceptions
-Macro | Description
---- | ---
+Macro |
+--- |
 `BOOST_CHECK_THROW ( statement, exception_type )` | 
 `BOOST_CHECK_EXCEPTION ( statement, exception_type, predicate )` | 
 `BOOST_CHECK_NO_THROW ( statement )` | 
