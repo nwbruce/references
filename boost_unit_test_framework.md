@@ -5,11 +5,11 @@
 ## Basics
 Macro | Description
 --- | ---
-`BOOST_CHECK( predicate )` | 
-`BOOST_CHECK_MESSAGE( predicate, message )` | 
+`BOOST_CHECK ( predicate )` | 
+`BOOST_CHECK_MESSAGE ( predicate, message )` | 
 `BOOST_CHECK_PREDICATE ( predicate, args )` | 
-`BOOST_ERROR( message )` | 
-`BOOST_FAIL( message)` | 
+`BOOST_ERROR ( message )` | 
+`BOOST_FAIL ( message)` | 
 
 ## Comparisons
 Macro | Description
